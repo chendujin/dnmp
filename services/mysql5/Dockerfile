@@ -1,0 +1,8 @@
+ARG MYSQL5_VERSION
+FROM mysql:${MYSQL5_VERSION}
+
+LABEL maintainer="Thomas <13728656748@163.com>"
+
+CMD ["mysqld"]
+
+EXPOSE 3306
